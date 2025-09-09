@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>eStore - Welcome</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        p {
+            color: #34495e;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            padding: 15px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        .status {
+            background-color: #d5f4e6;
+            color: #2d8659;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Spring Boot eStore</h1>
+        <div class="status">
+            ✅ Your eStore microservice is running successfully!
+        </div>
+        <p>This is a Spring Boot microservice example for Docker containerization. The application provides RESTful APIs for an online store.</p>
+        
+        <h2>Available Endpoints:</h2>
+        <ul>
+            <li><a href="/app/products">GET /app/products</a> - Product catalog API (JSON)</li>
+        </ul>
+        
+        <h2>Application Information:</h2>
+        <ul>
+            <li><strong>Port:</strong> 9090</li>
+            <li><strong>Context Path:</strong> /app</li>
+            <li><strong>Framework:</strong> Spring Boot 3.5.3</li>
+            <li><strong>Java Version:</strong> 21</li>
+        </ul>
+    </div>
+</body>
+</html>
