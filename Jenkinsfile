@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'my-springboot-app'
-        EC2_PUBLIC_IP = '3.136.26.4'
+        EC2_PUBLIC_IP = '18.188.93.140'
     }
 
     stages {
