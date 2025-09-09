@@ -1,7 +1,7 @@
 FROM eclipse-temurin:21
 
-LABEL maintainer="student@example.com"
-LABEL description="eStore Spring Boot Microservice"
+LABEL maintainer="willteng@example.com"
+LABEL description="Spring Boot app for Deployment Capstone"
 LABEL version="1.0"
 
 WORKDIR /app
